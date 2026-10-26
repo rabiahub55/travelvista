@@ -1,13 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TravelVista | Explore Beautiful Pakistan</title>
-  <meta name="description" content="Discover Pakistan's beautiful destinations, including Hunza, Skardu, Swat and Murree. Explore travel guides, attractions and travel tips.">
+  
+  <!-- Optimized Title Tag (58 Chars) -->
+  <title>TravelVista - Explore Beautiful Pakistan Tours & Travel Guide</title>
+  
+  <!-- Optimized Meta Description (159 Chars) -->
+  <meta name="description" content="Discover Pakistan's top travel destinations including Hunza, Skardu, Swat & Murree. Find expert trip guides, itineraries, travel tips and scenic tours with TravelVista.">
+  
   <link rel="canonical" href="https://rabiahub55.github.io/travelvista/">
-    <!-- Schema.org Structured Data for Google -->
+
+  <!-- Social Media Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rabiahub55.github.io/travelvista/">
+  <meta property="og:title" content="TravelVista - Explore Beautiful Pakistan Tours & Travel Guide">
+  <meta property="og:description" content="Discover Pakistan's top travel destinations including Hunza, Skardu, Swat & Murree with expert itineraries and guides.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1200&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TravelVista - Explore Beautiful Pakistan">
+  <meta name="twitter:description" content="Discover northern Pakistan's most scenic destinations and expert travel guides.">
+
+  <!-- Schema.org Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -18,6 +34,7 @@
     "areaServed": "Pakistan"
   }
   </script>
+
   <style>
     * { box-sizing: border-box; }
     body {
@@ -37,7 +54,8 @@
     }
     .logo { font-size: 26px; font-weight: bold; color: #147d64; }
     nav { display: flex; gap: 18px; flex-wrap: wrap; }
-    nav a { text-decoration: none; color: #24443c; font-size: 14px; }
+    nav a { text-decoration: none; color: #24443c; font-size: 14px; font-weight: 500; }
+    nav a:hover { color: #147d64; }
     .hero {
       min-height: 480px;
       display: flex;
@@ -60,7 +78,9 @@
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
+      transition: background 0.2s;
     }
+    .btn:hover { background: #e0a738; }
     section { padding: 60px 7%; }
     .section-title { text-align: center; margin-bottom: 35px; }
     .section-title h2 { font-size: 32px; margin-bottom: 10px; }
@@ -87,6 +107,7 @@
       margin: auto;
       line-height: 2.2;
     }
+    .travel-info { background: #ffffff; }
     footer {
       padding: 35px 7%;
       background: #183b33;
@@ -131,34 +152,34 @@
       </div>
       <div class="cards">
         <article class="card">
-          <img src="https://images.unsplash.com/photo-1566837497312-7be7830ae9b1?auto=format&fit=crop&w=700&q=80" alt="Hunza Valley mountains">
+          <img src="https://images.unsplash.com/photo-1566837497312-7be7830ae9b1?auto=format&fit=crop&w=700&q=80" alt="Hunza Valley mountains in northern Pakistan">
           <div class="card-content">
             <h3>Hunza Valley</h3>
-            <p>Explore majestic mountains, beautiful valleys and the charm of northern Pakistan.</p>
+            <p>Explore majestic mountains, beautiful valleys and the historical charm of northern Pakistan.</p>
             <a href="#guides">Explore Hunza →</a>
           </div>
         </article>
         <article class="card">
-          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80" alt="Snow covered mountains">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=700&q=80" alt="Snow covered mountains of Skardu Pakistan">
           <div class="card-content">
             <h3>Skardu</h3>
-            <p>Discover dramatic mountain scenery, lakes and unforgettable outdoor adventures.</p>
+            <p>Discover dramatic mountain scenery, crystal clear lakes and unforgettable outdoor adventures.</p>
             <a href="#guides">Explore Skardu →</a>
           </div>
         </article>
         <article class="card">
-          <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=700&q=80" alt="Lush green forest">
+          <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=700&q=80" alt="Lush green landscapes and rivers in Swat Valley">
           <div class="card-content">
             <h3>Swat Valley</h3>
-            <p>Enjoy lush green landscapes, rivers and refreshing mountain escapes.</p>
+            <p>Enjoy lush green landscapes, waterfalls, rivers and refreshing mountain escapes all year round.</p>
             <a href="#guides">Explore Swat →</a>
           </div>
         </article>
         <article class="card">
-          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80" alt="Beautiful scenic landscape">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=80" alt="Scenic hill station landscape of Murree">
           <div class="card-content">
             <h3>Murree</h3>
-            <p>Plan a relaxing hill-station visit with scenic views and cool mountain air.</p>
+            <p>Plan a relaxing hill-station visit with scenic forest views, pleasant weather and cool mountain air.</p>
             <a href="#guides">Explore Murree →</a>
           </div>
         </article>
@@ -168,13 +189,31 @@
     <section class="guides" id="guides">
       <div class="section-title">
         <h2>Travel Guides & Tips</h2>
-        <p>Prepare for your next trip with these useful travel topics.</p>
+        <p>Prepare for your next trip with these comprehensive travel topics.</p>
       </div>
       <div class="guide-list">
-        <p>✈️ How to plan a trip to Northern Pakistan</p>
-        <p>🎒 Essential packing list for mountain trips</p>
-        <p>📅 Best time to visit Hunza Valley</p>
-        <p>💰 How to plan a travel budget</p>
+        <p>🗺️ <strong>How to plan a trip to Northern Pakistan:</strong> Step-by-step route and transportation guide.</p>
+        <p>🎒 <strong>Essential packing list for mountain trips:</strong> Warm clothes, trekking gear, and medical kits.</p>
+        <p>☀️ <strong>Best time to visit Hunza & Skardu:</strong> Why April to October is the ideal season for travelers.</p>
+        <p>💰 <strong>How to plan a travel budget:</strong> Hotel accommodations, car rentals, and food expenses in Pakistan.</p>
+      </div>
+    </section>
+
+    <section class="travel-info">
+      <div class="section-title">
+        <h2>Explore Pakistan with Confidence</h2>
+        <p>Reliable recommendations for passionate travellers.</p>
+      </div>
+      <div style="max-width: 800px; margin: auto; line-height: 1.8; color: #354b44;">
+        <p>
+          Pakistan is home to rich cultural diversity, historical landmarks, and world-renowned alpine peaks. TravelVista is dedicated to helping tourists navigate the Northern Areas, understand weather patterns, and discover hidden cultural gems safely.
+        </p>
+        <p>
+          For official regulations, tourist visas, and travel advisories, consult the official 
+          <a href="https://tourism.gov.pk" target="_blank" rel="noopener noreferrer" style="color: #147d64; font-weight: bold; text-decoration: underline;">
+            Pakistan Tourism Development Corporation (PTDC)
+          </a>.
+        </p>
       </div>
     </section>
 
